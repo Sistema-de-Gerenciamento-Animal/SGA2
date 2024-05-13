@@ -1,0 +1,46 @@
+Sistema de Gerenciamento Animal
+
+Objetivo
+{
+
+    Criar um sistema de gerenciamento de animais que permita o usuario ver, cadastrar, editar e excluir seus animais e permitir que outros usuarios façam o mesmo além de permitir a transferencia e venda de animais entre usuarios e propriedades.
+}
+
+Entidades
+{
+    1-Usuários;
+    2-Propriedades;
+    3-Animais;
+}
+
+
+Ações
+{
+    Usuários{
+        1-Login;
+        2-Cadastro usuários;
+        3-Editar usuários;
+        4-Deletar usuários;
+    }
+    
+    Propriedades{
+        1-Cadastrar propriedades;
+        2-Editar propriedades;
+        3-Deletar propriedades;
+        4-Ver propriedades;
+        5-Transferir animais;
+        6-Permições de usuários;
+    }
+
+    Animais{
+        1-Cadastrar Animais;
+        2-Editar Animais;
+        3-Deletar Animais;
+        4-Ver Animais;
+        5-Transferir animais;
+        6-Vender animais;
+    }
+
+
+
+}

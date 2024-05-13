@@ -1,0 +1,83 @@
+Usuarios{
+    pq{
+        dados usuarios
+    }
+    id
+    nome
+    email
+    senha
+    celular
+    nascimento
+    endid
+    status
+}
+Propriedades{
+    pq{
+        dados da propriedade
+    }
+    id
+    nome
+    email
+    telefone
+    tipo
+    endid
+    status
+}   
+
+Enderecos{
+    pq{
+        Enderecos do usuario e da propriedade
+    }
+    id
+    estado 
+    cidade
+    bairro
+    rua
+    numero
+    status
+}
+UsuariosPropriedades{
+    pq{
+        Permite que um usuario fique associado a mais de uma propriedade de formas diferentes
+    }
+    id
+    usuid
+    proid
+    tipo
+    status
+}
+UsuarioPropriedadeAnimal{
+    pq{
+        Associa um animal a um usuario de uma propriedade permitindo transferencia de animais entre usuarios e propriedades
+    }
+    id
+    aniid
+    uprId
+    data
+    status
+}
+Animais{
+    pq{
+        dados do animal
+    }
+    id
+    nome
+    especie
+    raca
+    sexo
+    nascimento
+    status
+}
+
+
+
+
+Vacinas{
+    pq{
+        dados de vacina do animal
+    }
+    aniid
+    nome
+    data
+    status
+}
